@@ -126,19 +126,19 @@ proxy-groups:
     type: select
     use:
       - provider1
-    filter: "AICG-9929v3"
+    filter: "AIGC-9929v3"
 
   - name: "🤖 AI次级"
     type: select
     use:
       - provider1
-    filter: "AICG-4837"
+    filter: "AIGC-4837"
 
   - name: "🤖 AI备用"
     type: select
     use:
       - provider1
-    filter: "AICG-9929v2"
+    filter: "AIGC-9929v2"
 
   - name: "🤖 AI故障转移"
     type: fallback
